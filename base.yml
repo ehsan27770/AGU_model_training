@@ -1,0 +1,41 @@
+batch_size: 16
+bound:
+- 500
+- 1000
+- 500
+- 1000
+contex: false
+depth: 8
+description: CARE model multioutput with Dice loss 2019
+epochs: 15
+generator: 2
+height: 128
+include_position: false
+include_time: false
+inputInd:
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+keep_float: true
+layers:
+- 16
+- 32
+- 64
+- 128
+- 256
+load_weight: true
+loss: 1
+model: 1
+multi: true
+name: multi_output_func_small_wide_5
+numPatches: 128
+patch_size: 128
+path: /work/sci-sti-fr/semansou/dataSequenceCNN_2019_multi_output/
+region: CUS
+time_dimension: false
+width: 128
